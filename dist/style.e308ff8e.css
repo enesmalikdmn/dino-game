@@ -1,0 +1,55 @@
+.game  {
+  width: 60rem;
+  height: 20rem;
+  margin: 15rem auto;
+}
+
+#dinosour{
+  width: 6rem;
+  height: 6rem;
+  background-image: url(/dino.6c1b7d6e.png);
+  background-size: 6rem 6rem;
+  position: relative;
+  top: 14rem;
+}
+#cactus {
+  width: 4rem;
+  height: 8rem;
+  background-image: url(/cactus.07400d83.png);
+  background-size: 4rem 8rem;
+  position: relative;
+  top: 7rem;
+  left: 56rem;
+  animation: block 2s infinite;
+
+}
+.jump {
+  animation: jump 0.3s linear;
+}
+@keyframes jump {
+  0% {
+    top: 8rem;
+  }
+  30% {
+    top: 6rem;
+  }
+  50% {
+    top: 4rem;
+  }
+  80% {
+    top: 6rem;
+  }
+  100% {
+    top: 8rem;
+  }
+}
+@keyframes block {
+  0% {
+    left: 56rem;
+  }
+  100% {
+    left: -20rem;
+  }
+}
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
